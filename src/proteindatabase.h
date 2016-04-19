@@ -7,9 +7,9 @@
 #include <vector>
 #include <algorithm>
 
-#include "../src/ptm.h"
-#include "../srcOpenMP/peptide.h"
-#include "../srcOpenMP/proNovoConfig.h"
+#include "ptm.h"
+#include "peptide.h"
+#include "proNovoConfig.h"
 //#include "alphabet.h"
 
 //#define ORDERSTRING "ACDEFGHIJKLMNPQRSTVWY[]"

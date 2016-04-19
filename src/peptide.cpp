@@ -1,4 +1,4 @@
-#include "../src/peptide.h"
+#include "peptide.h"
 
 Peptide::Peptide()
 {

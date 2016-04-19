@@ -8,7 +8,7 @@
 // as a vector (i.e. Split returns a vector of elements).
 /********************************************************/
 
-#include "../src/tokenvector.h"
+#include "tokenvector.h"
 
 // Constructor.  Given a string and a set of delimiters,
 // creates a vector of the substrings.

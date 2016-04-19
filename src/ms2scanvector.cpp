@@ -1,7 +1,4 @@
-
-
-
-#include "../src/ms2scanvector.h"
+#include "ms2scanvector.h"
 
 MS2ScanVector::MS2ScanVector(const string & sFT2FilenameInput, const string & sOutputDirectory, 
 			     const string & sConfigFilename, bool bScreenOutput)

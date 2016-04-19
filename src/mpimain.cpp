@@ -4,9 +4,9 @@
 #include <cstdlib>
 
 
-#include "../src/directoryStructure.h"
-#include "../src/ms2scanvector.h"
-#include "../src/proNovoConfig.h"
+#include "directoryStructure.h"
+#include "proNovoConfig.h"
+#include "ms2scanvector.h"
 
 #define WORKTAG    1
 #define DIETAG     2

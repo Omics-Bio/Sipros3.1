@@ -11,10 +11,10 @@
 #include <vector>
 #include <algorithm>
 
-#include "../src/ms2scan.h"
-#include "../src/proteindatabase.h"
-#include "../src/tokenvector.h"
-#include "../srcOpenMP/proNovoConfig.h"
+#include "ms2scan.h"
+#include "proteindatabase.h"
+#include "tokenvector.h"
+#include "proNovoConfig.h"
 
 #define ZERO            0.00000001
 #define PEPTIDE_ARRAY_SIZE  10000

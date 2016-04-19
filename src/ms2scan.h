@@ -4,7 +4,7 @@
 #include <vector>
 #include <string>
 
-#include "../src/peptide.h"
+#include "peptide.h"
 //#include "TandemMassSpectrum.h"
 
 #define BIN_RES         1000

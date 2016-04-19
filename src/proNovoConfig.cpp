@@ -1,5 +1,5 @@
 
-#include "../src/proNovoConfig.h"
+#include "proNovoConfig.h"
 
 string ProNovoConfig::sFilename = "SiprosConfig.cfg";
 

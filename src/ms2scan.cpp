@@ -1,4 +1,4 @@
-#include "../src/ms2scan.h"
+#include "ms2scan.h"
 
 /**********switching from weightsum to ranksum needs to turn on some function in ms2scan.cpp and peptide.cpp *******/ 
 

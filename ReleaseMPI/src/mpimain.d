@@ -1,5 +1,4 @@
-srcOpenMP/mpimain.o: ../srcOpenMP/mpimain.cpp \
- /home/xgo/local/include/mpi.h \
+src/mpimain.o: ../src/mpimain.cpp /home/xgo/local/include/mpi.h \
  /home/xgo/local/include/mpi_portable_platform.h \
  /home/xgo/local/include/openmpi/ompi/mpi/cxx/mpicxx.h \
  /home/xgo/local/include/openmpi/ompi/mpi/cxx/constants.h \
@@ -32,16 +31,9 @@ srcOpenMP/mpimain.o: ../srcOpenMP/mpimain.cpp \
  /home/xgo/local/include/openmpi/ompi/mpi/cxx/info_inln.h \
  /home/xgo/local/include/openmpi/ompi/mpi/cxx/win_inln.h \
  /home/xgo/local/include/openmpi/ompi/mpi/cxx/file_inln.h \
- ../srcOpenMP/directoryStructure.h ../srcOpenMP/proNovoConfig.h \
- ../srcOpenMP/../srcOpenMP/isotopologue.h \
- ../srcOpenMP/../srcOpenMP/../srcOpenMP/proNovoConfig.h \
- ../srcOpenMP/ms2scanvector.h ../srcOpenMP/../srcOpenMP/ms2scan.h \
- ../srcOpenMP/../srcOpenMP/../srcOpenMP/peptide.h \
- ../srcOpenMP/../srcOpenMP/../srcOpenMP/../srcOpenMP/proNovoConfig.h \
- ../srcOpenMP/../srcOpenMP/proNovoConfig.h \
- ../srcOpenMP/../srcOpenMP/proteindatabase.h \
- ../srcOpenMP/../srcOpenMP/../srcOpenMP/ptm.h \
- ../srcOpenMP/../srcOpenMP/tokenvector.h
+ ../src/directoryStructure.h ../src/proNovoConfig.h ../src/isotopologue.h \
+ ../src/ms2scanvector.h ../src/ms2scan.h ../src/peptide.h \
+ ../src/proteindatabase.h ../src/ptm.h ../src/tokenvector.h
 
 /home/xgo/local/include/mpi.h:
 
@@ -109,26 +101,20 @@ srcOpenMP/mpimain.o: ../srcOpenMP/mpimain.cpp \
 
 /home/xgo/local/include/openmpi/ompi/mpi/cxx/file_inln.h:
 
-../srcOpenMP/directoryStructure.h:
+../src/directoryStructure.h:
 
-../srcOpenMP/proNovoConfig.h:
+../src/proNovoConfig.h:
 
-../srcOpenMP/../srcOpenMP/isotopologue.h:
+../src/isotopologue.h:
 
-../srcOpenMP/../srcOpenMP/../srcOpenMP/proNovoConfig.h:
+../src/ms2scanvector.h:
 
-../srcOpenMP/ms2scanvector.h:
+../src/ms2scan.h:
 
-../srcOpenMP/../srcOpenMP/ms2scan.h:
+../src/peptide.h:
 
-../srcOpenMP/../srcOpenMP/../srcOpenMP/peptide.h:
+../src/proteindatabase.h:
 
-../srcOpenMP/../srcOpenMP/../srcOpenMP/../srcOpenMP/proNovoConfig.h:
+../src/ptm.h:
 
-../srcOpenMP/../srcOpenMP/proNovoConfig.h:
-
-../srcOpenMP/../srcOpenMP/proteindatabase.h:
-
-../srcOpenMP/../srcOpenMP/../srcOpenMP/ptm.h:
-
-../srcOpenMP/../srcOpenMP/tokenvector.h:
+../src/tokenvector.h:

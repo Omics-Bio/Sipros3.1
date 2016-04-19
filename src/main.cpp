@@ -2,10 +2,9 @@
 #include <string>
 #include <cstdlib>
 
-#include "../src/directoryStructure.h"
-#include "../src/ms2scanvector.h"
-
-#include "../srcOpenMP/proNovoConfig.h"
+#include "directoryStructure.h"
+#include "ms2scanvector.h"
+#include "proNovoConfig.h"
 
 
 using namespace std;

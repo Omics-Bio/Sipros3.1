@@ -1,4 +1,4 @@
-#include "../src/proteindatabase.h"
+#include "proteindatabase.h"
 
 ProteinDatabase::ProteinDatabase(bool bScreenOutput)
 {

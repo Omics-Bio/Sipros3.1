@@ -6,7 +6,7 @@
 #include <map>
 #include <iostream>
 
-#include "../src/proNovoConfig.h"
+#include "proNovoConfig.h"
 
 using namespace std;
 

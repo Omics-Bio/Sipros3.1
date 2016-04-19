@@ -1,5 +1,5 @@
 
-#include "../src/directoryStructure.h"
+#include "directoryStructure.h"
 
 #include <sys/types.h>
 #include <dirent.h>

@@ -11,7 +11,7 @@
 #include <math.h>
 #include <stdio.h>
 
-#include "../srcOpenMP/isotopologue.h"
+#include "isotopologue.h"
 
 using namespace std;
 

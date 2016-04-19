@@ -1,4 +1,4 @@
-#include "../src/ptm.h"
+#include "ptm.h"
 
 bool PTM_List::add_ptm(char res, string sym, double mass) {
   char check[10];

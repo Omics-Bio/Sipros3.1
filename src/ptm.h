@@ -8,7 +8,7 @@
 #include <vector>
 #include <map>
 
-#include "../srcOpenMP/proNovoConfig.h"
+#include "proNovoConfig.h"
 
 using namespace std;
 

@@ -1,4 +1,4 @@
-#include "../src/isotopologue.h"
+#include "isotopologue.h"
 
 IsotopeDistribution::IsotopeDistribution()
 {
