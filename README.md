@@ -56,7 +56,7 @@ The current version of scripts has been tested using Python 2.7.2, so if you are
 `python reverseseq.py -i original_database_file -o output_database_file`
 The step will generate a new database file with reverse sequences.
 
-5 Run Sipros
+5. Run Sipros
 The easiest way for running Sipros is
 
 `./SiprosMPI -c configurefilename -w workingdirectory`
