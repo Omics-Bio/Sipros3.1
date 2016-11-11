@@ -58,15 +58,25 @@ The step will generate a new database file with reverse sequences.
 
 5 Run Sipros
 The easiest way for running Sipros is
+
 `./SiprosMPI -c configurefilename -w workingdirectory`
+
 or
+
 `./Sipros_OpenMP -c configurefilename -w workingdirectory`
+
 Sipros will use all .FT2 files in the working directory. Results (.sip files) will be saved on working directory by default. You can specify output directory by specifying `-o`. If you just want to specify one FT2 file, you can use `-f` like,
+
 `./SiprosMPI -c configurefilename -f FT2filename`
+
 or
+
 `./Sipros_OpenMP -c configurefilename -f FT2filename`
-If you want to slice screen output, please add `-s`. In `SiprosMPI`, you are allowing to specify `-g` like
+
+If you want to slice screen output, please add `-s`. In `SiprosMPI`, you are allowing to specify `-g` like,
+
 `./SiprosMPI -g configurefiledirectory -w workingdirectory`, if you have many configure files.
+
 Please note that you can get help information by flag `-h`.
 
 ## Post-processing
