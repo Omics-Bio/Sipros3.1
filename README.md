@@ -5,7 +5,15 @@ Sipros is a database searching program for shotgun proteomics. It can perform ac
 # Installation
 
 ## MPI version
-1. change the compiler path in two files Sipros3.1/ReleaseMPI/makefile and Sipros3.1/ReleaseMPI/src/subdir.mk
+
+1. change the compiler path in two files Sipros3.1/ReleaseMPI/makefile and Sipros3.1/ReleaseMPI/src/subdir.mk.
+
+2. In Sipros3.1/ReleaseMPI/makefile, edit line 8.
+
+3. In Sipros3.1/ReleaseMPI/src/subdir.mk, edit line 5.
+
+4. type `make`
+
 ## OpenMP version
 
 # Usage
